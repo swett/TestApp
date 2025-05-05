@@ -77,6 +77,7 @@ extension UsersView {
                             ProgressView()
                                 .padding()
                         }
+                        Spacer(minLength: 120)
                     }
                     .padding(.horizontal, 16)
                 }

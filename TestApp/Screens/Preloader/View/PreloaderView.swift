@@ -17,10 +17,10 @@ struct PreloaderView: View {
             Image("Logo")
         }
         .onAppear {
-            viewModel.setupBindings()
-//            DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
-                //            viewModel.showMain()
-//            }
+//            viewModel.setupBindings()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
+                            viewModel.showMain()
+            }
         }
     }
 }

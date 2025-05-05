@@ -120,6 +120,7 @@ extension SingUpView {
                             )
                     }
                     .padding(.top, 20)
+                    .allowsHitTesting(viewModel.isAllInputed)
                     Spacer(minLength: 120)
                 }
             }
